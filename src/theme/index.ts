@@ -9,6 +9,7 @@ const baseThemeOptions: ThemeOptions = {
     borderRadius: 8,
   },
   typography: {
+    fontFamily: 'Poppins',
     button: {
       textTransform: 'none',
     },
@@ -28,6 +29,7 @@ const baseThemeOptions: ThemeOptions = {
     },
   },
   palette: {
+    mode: 'light',
     primary: {
       main: '#4746F5',
     },

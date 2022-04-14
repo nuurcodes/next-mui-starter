@@ -9,6 +9,8 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -28,8 +30,14 @@
       "@components/*": [
         "./src/components/*"
       ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
       "@theme/*": [
         "./src/theme/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
       ]
     },
     "incremental": true
